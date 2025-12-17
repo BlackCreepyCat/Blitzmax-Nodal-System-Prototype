@@ -268,8 +268,8 @@ Type TNode
                         i :+ 1
                     EndIf
                 Next
-                Print "Total combined = " + value
-                Print "===================="
+              '  Print "Total combined = " + value
+              '  Print "===================="
                 
             Case "Print", "Result"
                 If inputs.Count() > 0 And TPort(inputs.First()).link
